@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.5)
+include_directories(include)
+set (CMAKE_CXX_STANDARD 11)
+link_directories(lib)
+
+IF (UNIX AND NOT APPLE)
+  file(GLOB_RECURSE SOURCES main.cpp)
+  add_executable(example ${SOURCES})
+  add_definitions(-DGLEW_STATIC)
+  target_link_libraries (example GL GLEW SDL2 SDL2_image SDL2_ttf SDL2_mixer rosalila)
+ENDIF ()

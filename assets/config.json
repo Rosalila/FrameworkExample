@@ -1,0 +1,98 @@
+{
+  "Resolution": 
+  {
+    "x": "1280",
+    "y": "720"
+  },
+  "ScreenSize": 
+  {
+    "x": "1280",
+    "y": "720"
+  },
+  "Fullscreen": 
+  {
+    "enabled": "no"
+  },
+  "Font OPTIONAL": 
+  {
+    "path": "../assets/font.ttf",
+    "red": "255",
+    "green": "255",
+    "blue": "255",
+    "size": "30"
+  },
+  "Notifications OPTIONAL": 
+  {
+    "background_path": "../assets/notification_background.png"
+  },
+  "Inputs": 
+  {
+    "Player": 
+    {
+      "number": "0",
+      "Type": 
+      [
+        {
+          "name": "keyboard",
+          "button": 
+          [
+            {
+              "name": "up",
+              "key": "up"
+            },            
+            {
+              "name": "down",
+              "key": "down"
+            },            
+            {
+              "name": "left",
+              "key": "left"
+            },            
+            {
+              "name": "right",
+              "key": "right"
+            },            
+            {
+              "name": "a",
+              "key": "z"
+            },            
+            {
+              "name": "b",
+              "key": "x"
+            }
+          ]
+        },        
+        {
+          "name": "gamepad",
+          "button": 
+          [            
+            {
+              "name": "up",
+              "key": "up"
+            },            
+            {
+              "name": "down",
+              "key": "down"
+            },            
+            {
+              "name": "left",
+              "key": "left"
+            },            
+            {
+              "name": "right",
+              "key": "right"
+            },            
+            {
+              "name": "a",
+              "key": "1"
+            },            
+            {
+              "name": "b",
+              "key": "2"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
